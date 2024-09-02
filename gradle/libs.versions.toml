@@ -18,6 +18,7 @@ material = "1.6.8"
 navigationCompose = "2.7.7"
 okhttp = "4.10.0"
 retrofit = "2.11.0"
+kotlinx-serialization = "1.6.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -48,4 +49,7 @@ retrofit-v2110 = { module = "com.squareup.retrofit2:retrofit", version.ref = "re
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlinx-serialization-json = { id = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
+kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+
 

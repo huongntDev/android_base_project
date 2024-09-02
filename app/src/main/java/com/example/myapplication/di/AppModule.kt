@@ -1,5 +1,5 @@
 package com.example.myapplication.di
-import com.example.myapplication.presentation.viewmodels.MarvelViewModel
+import com.example.myapplication.ui.viewmodels.MarvelViewModel
 import org.koin.core.module.dsl.viewModel
 import org.koin.dsl.module
 

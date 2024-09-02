@@ -67,12 +67,17 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
+    // Retrofit
     implementation (libs.retrofit.v2110)
-    implementation("com.squareup.okhttp3:logging-interceptor:4.10.0")
+    implementation(libs.logging.interceptor)
     implementation (libs.converter.gson.v2110)
+    // Koin
     implementation(libs.koin.androidx.compose.v400rc1)
-//    implementation(libs.koin.android)
-//    implementation ("io.insert-koin:koin-androidx-viewmodel:3.5.0")
-
+    // Coroutines
     implementation(libs.kotlinx.coroutines.android.v139)
+
+    //Navigation
+    implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.material)
+
 }
